@@ -1,0 +1,30 @@
+#judul {
+    display: block;
+    text-align: center;
+
+}
+#skor {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(241, 175, 33);
+}
+.tombol{
+    display: block;
+    text-align: center;
+}
+#game{
+    font-size: 25px;
+    padding: 40px 65px;
+    background-color: aqua;
+    border: solid 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#game:hover{
+    background-color: rgb(2, 223, 223);
+}
