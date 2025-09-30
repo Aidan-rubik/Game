@@ -2,7 +2,7 @@ const skor = document.getElementById("jumlahSkor");
 
 let count = 0;
 
-document.getElementById("game").onclick = function() {
+function tambah() {
     count++;
     skor.textContent = count;
 }
@@ -28,4 +28,5 @@ document.getElementById("game").onclick = function() {
 //}
 //#powerup:hover{
 //    background-color: blue;
+
 //}
